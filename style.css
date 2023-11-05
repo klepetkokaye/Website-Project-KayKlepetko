@@ -10,10 +10,10 @@ html {
     padding: 0;
     min-height: 100%;
     width: 100%;
-    font-family: sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
     display: flex;
-  flex-direction: column;
+    flex-direction: column;
     
   }
   
@@ -90,7 +90,6 @@ nav a:hover {
 
 /* Dropdown button */
 .dropdown .dropbtn {
-  
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 10px;
@@ -118,7 +117,6 @@ nav a:hover {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -127,7 +125,6 @@ nav a:hover {
 .dropdown-content a {
   background-color: #535353;
   float: none;
-  padding: 12px 16px;
   text-decoration: none;
   display: block;
   text-align: left;
@@ -145,13 +142,51 @@ nav a:hover {
   
   main {
     vertical-align:bottom;
+    align-self: center;
+    max-width: 850px;
     margin-right:100px;
     margin-left: 100px;
     padding-top: 20px;
+    padding-bottom: 20px;
     padding-left: 50px;
     padding-right: 50px;
     background-color: #E4E4E4;
     flex: auto;
+  }
+  .davetext {
+    font-family: 'Courier New', Courier, monospace;
+    color: #E00707;
+    font-weight: bold;
+  }
+  .rosetext{
+    font-family: 'Courier New', Courier, monospace;
+    color: #b536da;
+    font-weight: bold;
+  }
+  .johntext{
+    font-family: 'Courier New', Courier, monospace;
+    color: #0715cd;
+    font-weight: bold;
+  }
+  .dirktext{
+    font-family: 'Courier New', Courier, monospace;
+    color: #f2a400;
+    font-weight: bold;
+  }
+  .jaketext{
+    font-family: 'Courier New', Courier, monospace;
+    color: #1f9400;
+    font-weight: bold;
+  }
+  .uranianUmbra {
+    font-family: 'Courier New', Courier, monospace;
+    color: #7c7c7c;
+    font-weight: bold;
+  }
+  main h2 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 34px;
   }
   .Karkat{
     float:right;
@@ -164,28 +199,25 @@ nav a:hover {
     font-size: 12px;
     text-align: center;
   }
-  .striders{
+  .rightHandPicture{
     float:right;
     padding-right: 20px;
     font-size: 12px;
     text-align: center;
   }
-  .TSI {
+  .leftHandPicture{
+    float:left;
+    padding-right: 20px;
+    font-size: 12px;
     text-align: center;
-    font-size: 20px;
-    
   }
   .TSI a{
-    border-radius:10px;
-    color: #A8CF40;
-    border: #A8CF40;
-    border-width: 3px;
-    border-style: solid;
-    text-decoration:none;
-    color:#A8CF40;
-    background-color: #535353;
-    padding: 5px;
-    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+  }
+  .TSIbackhome{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
   }
   
   footer {
